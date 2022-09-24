@@ -1,0 +1,244 @@
+:root {
+  --accent-color: #f7941e;
+  --primary-bg-color: #fafafa;
+  --secondary-bg-color: #e5e5e5;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  background-color: var(--primary-bg-color);
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* -------------------- Header -------------------- */
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: inline-block;
+  margin-left: 40px;
+
+  font-family: "Homemade Apple", sans-serif;
+  font-size: 18px;
+  line-height: calc(40px / 18px);
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 433px;
+  gap: 31px;
+}
+
+.nav-link {
+  display: block;
+  padding: 28px 0;
+
+  font-size: 18px;
+  line-height: calc(22 / 18);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.btn {
+  display: inline-block;
+
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  text-transform: uppercase;
+
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.header-btn {
+  padding: 13px 20px;
+  margin-left: auto;
+
+  background-color: transparent;
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+/* -------------------- Hero -------------------- */
+
+.hero-section .container {
+  display: flex;
+  background-color: var(--secondary-bg-color);
+}
+
+.text-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.content-wrapper {
+  max-width: 433px;
+}
+
+.content-title {
+  margin-bottom: 36px;
+
+  font-size: 56px;
+  line-height: calc(69 / 56);
+  margin-bottom: 36px;
+}
+
+.content-text {
+  margin-bottom: 52px;
+
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.hero-btn {
+  height: 60px;
+  padding: 19px 35px;
+
+  background-color: transparent;
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+/* -------------------- How we work section -------------------- */
+
+.about-section .container {
+  display: flex;
+  background-color: var(--secondary-bg-color);
+}
+
+.about-section-title {
+  margin-bottom: 23px;
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.about-btn {
+  height: 60px;
+  padding: 19px 35px;
+
+  background-color: transparent;
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.about-btn:hover,
+.about-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+/* -------------------- Gifts -------------------- */
+
+.sec-container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.gifts-section .sec-container {
+  padding: 96px 0 120px;
+  text-align: center;
+}
+
+.gift-title {
+  margin-bottom: 23px;
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.gift-text {
+  margin-bottom: 57px;
+  font-size: 18px;
+  line-height: 1.36;
+}
+
+.gift-list {
+  display: flex;
+  gap: 30px;
+}
+
+.gift-list-item {
+  width: calc((100% - 90px) / 4);
+  background-color: #ffffff;
+}
+
+.item-link-footer {
+  padding: 24px;
+  text-align: left;
+}
+.item-footer-title {
+  margin-bottom: 74px;
+
+  font-size: 20px;
+  line-height: 1.2;
+}
+.item-footer-text {
+  font-size: 14px;
+  line-height: calc(19 / 14);
+}
+
+/* -------------------- Start section -------------------- */
+
+.start-section .sec-container {
+    display:flex
+}

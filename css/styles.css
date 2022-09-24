@@ -140,6 +140,7 @@ body {
 
   font-size: 56px;
   line-height: calc(69 / 56);
+  font-weight: 500;
   margin-bottom: 36px;
 }
 
@@ -196,7 +197,7 @@ body {
 }
 
 .gifts-section .sec-container {
-  padding: 96px 0 120px;
+  padding: 96px 0;
   text-align: center;
 }
 
@@ -239,6 +240,37 @@ body {
 
 /* -------------------- Start section -------------------- */
 
-.start-section .sec-container {
-    display:flex
+.start-section .container {
+  padding: 80px 235px 70px;
+  background-color: var(--accent-color);
+}
+
+.start-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.start-text-wrapper {
+}
+
+.start-title {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.start-text {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.start-list {
+  display: flex;
+  gap: 16px;
+}
+
+.start-btn {
+    padding: 14px 25px;
 }
